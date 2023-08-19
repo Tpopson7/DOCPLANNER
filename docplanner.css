@@ -1,10 +1,57 @@
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 1.42857143;
-    color: #333;
-    background-color: #3D83DF;
+    color: #ababab;
+    background-color: #D0FAF4;
+    padding: 0 200px 0 200px
 }
 
 header{
-    color: rgb(0, 0, 0);
+display: flex;
+justify-content: space-around;
+align-items: center;
+/* background-color: aqua; */
+color: #000000;
+position: fixed;
+text-decoration: none;
+
 }
+
+ul{
+    display:flex;
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    gap: 20px;
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color:#00CCB1;
+    text-decoration: none;
+  }
+  /* visited link */
+  #black a:visited {
+    color: #ababab;
+    text-decoration: none;
+  }
+  
+  #green a:visited {
+    color: #00CCB1;
+    text-decoration: none;
+  }
+  /* mouse over link */
+  #black a:hover {
+    color: #00CCB1;
+    text-decoration: none;
+  }
+
+
+
