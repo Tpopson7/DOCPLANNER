@@ -21,10 +21,11 @@
     </nav>
    </header>
   
+<main>
    <!-- First stage -->
    <section class="section1">
-    <figure>
-        <img src="/DOCPLAN/Images/logo.png" alt="tiny logo">
+    <figure id="tinylogo">
+        <img src="/DOCPLAN/Images/logo.png" alt="tiny logo" height="40px" width="40px">
     </figure>
     
     <h3>Making the healthcare experience more human</h3>
@@ -46,7 +47,8 @@
    <section class="section2">
 
     <div id="patients">
-       <figure>
+        <div class= "inpatients">
+       <figure id="iconp">
             <img src="/DOCPLAN/Images/icon-patients.svg" alt="patienticon">
        </figure>
 
@@ -76,11 +78,13 @@
             </select>
 
         </form>
-
+    </div>
     </div>
 
     <div id="doctors">
-        <figure>
+        <div class="indoctor">
+
+        <figure class="icond">
             <img src="/DOCPLAN/Images/icon-doctors.svg" alt="doctoricon">
         </figure>
 
@@ -112,9 +116,11 @@
 
         </form>
     </div>
+    </div>
 
     <div id="clinics">
-        <figure>
+        <div class="inclinics">
+        <figure class="iconc">
             <img src="/DOCPLAN/Images/icon-clinics.svg" alt="clinicicon">
         </figure>
         
@@ -125,8 +131,12 @@
         <p>
             Deliver an exceptional patient experience in your clinic
         </p>
+    </div>
 
-<!-- there are two drop downs here -->
+    
+    <!-- there are two drop downs here -->
+    
+    <Div class="drops2">
         <form action="#">
             <select name="Country" id="place">
                 <option value="#">2 to 20 specialists</option>
@@ -153,6 +163,9 @@
   
         </form>
     </div>
+    </div>
+
+    </section>
 
     <div>
 
@@ -346,6 +359,7 @@ Mexico City and Curitiba, our search for great talent never stops.
 
     <button type="button">SEE ALL CURRENT OPENNINGS</button>
    </section>
+</main>
 <!-- footer -->
    <Footer>
     <div class="footer">
