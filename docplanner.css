@@ -1,10 +1,12 @@
 *{ 
   box-sizing: border-box;
+  
 }
 
 main{
   margins:0 auto;
   padding: 12px 16px;
+
 }
 body{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -223,6 +225,83 @@ drops2{
   text-decoration: underline;
   margin-bottom: 30px;
 }
+
+.rest{
+  display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.rest div{
+  width: 60%;
+  display: flex;
+  background-color: rebeccapurple;
+  flex-direction: row;
+
+}
+
+.short{
+  width: 20px;
+  margin: 2px 0px 3px;
+  padding-right: 50px;
+  letter-spacing: -0.3px;
+  background-color: hotpink;
+}
+
+.short h2{
+  font-size: 25px;
+  font-family:Lucida Sans, Lucida Sans Regular, Lucida Grande', 'Lucida Sans Unicode, Geneva, Verdana, sans-serif Helvetica;
+  font-weight: lighter;
+  color: #77b300;
+  display: block;
+  margin-block-start: 10px;
+  margin-block-end: 100px;
+  margin-inline-start: -200px;
+  margin-inline-end: 20px;
+}
+
+
+#logos{
+display: flex; 
+flex-direction: column;
+  background-color: #77b300;
+  width: 400px;
+  height: 259px;
+  margin-left: -20px;
+}
+
+#logos div{
+  background-color: darkmagenta;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 42px;
+  object-fit: contain;
+  vertical-align: middle;
+  border: 0px;
+}
+
+
+.groupfig div img{
+width: 75px;
+height: 15px;
+}
+/* .rest #logo{
+  display: flex;
+    gap: 5px;
+    width: 20000px;
+    flex-wrap: wrap;
+    background-color: darkorange;
+}
+
+.groupfig div{
+  width: 100px;
+  object-fit: contain;
+  vertical-align: middle;
+  border: 0px;
+  background-color: darkolivegreen;
+} */
 
 .section3{
   display: flex;
